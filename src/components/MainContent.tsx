@@ -6,7 +6,7 @@ import {
   Stack,
   Typography,
 } from "@mui/material";
-import Logo from "../assets/main-img.jpg";
+import Logo from "../../public/main-img.jpg";
 
 function MainContent() {
   return (

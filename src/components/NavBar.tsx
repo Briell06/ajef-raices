@@ -5,7 +5,7 @@ import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
-import Logo from "../assets/main-img.jpg";
+import Logo from "../../public/main-img.jpg";
 
 export default function NavBar() {
   return (

@@ -1,4 +1,4 @@
-import BG from "../assets/bg.jpg";
+import BG from "../../public/bg.jpg";
 import { Box, Typography } from "@mui/material";
 
 function WhiteSpace() {
