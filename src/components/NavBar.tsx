@@ -9,7 +9,7 @@ import Logo from "../../public/main-img.jpg";
 
 export default function NavBar() {
   return (
-    <Box component="nav" height={"7vh"} sx={{ flexGrow: 1 }}>
+    <Box component="nav" height={{ xs: "5vh", sm: "7vh" }} sx={{ flexGrow: 1 }}>
       <AppBar position="fixed" elevation={24}>
         <Toolbar>
           <IconButton
@@ -17,12 +17,11 @@ export default function NavBar() {
             edge="start"
             color="inherit"
             aria-label="logo"
-            sx={{ mr: 2 }}
           >
             <Avatar
               src={Logo}
               sx={{
-                height: "7vh",
+                height: { xs: "5vh", sm: "7vh" },
                 width: "auto",
               }}
             />
@@ -35,12 +34,7 @@ export default function NavBar() {
           >
             Herminio Rivera
           </Typography>
-          <Stack
-            mr={{ xs: 2, md: 0 }}
-            direction="row"
-            ml="auto"
-            spacing={{ xs: 0, md: 2 }}
-          >
+          <Stack direction="row" ml="auto" spacing={{ xs: 0, md: 2 }}>
             <Button
               size="large"
               color="inherit"

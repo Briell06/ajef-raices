@@ -10,7 +10,10 @@ import Logo from "../../public/main-img.jpg";
 
 function MainContent() {
   return (
-    <Box p={5} sx={{ backgroundImage: `linear-gradient(#126e34, black)` }}>
+    <Box
+      p={{ xs: 2, sm: 3, md: 5 }}
+      sx={{ backgroundImage: `linear-gradient(#126e34, black)` }}
+    >
       <Container>
         <Paper
           elevation={24}
