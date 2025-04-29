@@ -35,7 +35,7 @@ export default function NavBar() {
           >
             Herminio Rivera
           </Typography>
-          <Stack direction="row" ml="auto" spacing={2}>
+          <Stack direction="row" ml="auto" spacing={{ xs: 0, md: 2 }}>
             <Button
               size="large"
               color="inherit"

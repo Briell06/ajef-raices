@@ -12,12 +12,19 @@ function MainContent() {
   return (
     <Box p={5} sx={{ backgroundImage: `linear-gradient(#126e34, black)` }}>
       <Container>
-        <Paper elevation={24} sx={{ p: 4, borderRadius: "15px" }}>
+        <Paper
+          elevation={24}
+          sx={{ p: { xs: 1, sm: 2, md: 4 }, borderRadius: "15px" }}
+        >
           <Stack alignContent="center" direction="column">
             <Avatar
               src={Logo}
               alt="Logo"
-              sx={{ mx: "auto", height: "30vh", width: "30vh" }}
+              sx={{
+                mx: "auto",
+                height: { xs: "25vh", md: "30vh" },
+                width: { xs: "25vh", md: "30vh" },
+              }}
             />
             <Typography
               fontSize={"20px"}
