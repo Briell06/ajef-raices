@@ -9,7 +9,7 @@ import Logo from "../../public/main-img.jpg";
 
 export default function NavBar() {
   return (
-    <Box component="nav" height={{ xs: "5vh", sm: "7vh" }} sx={{ flexGrow: 1 }}>
+    <Box component="nav" height="7vh" sx={{ flexGrow: 1 }}>
       <AppBar position="fixed" elevation={24}>
         <Toolbar>
           <IconButton
