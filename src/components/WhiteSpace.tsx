@@ -1,5 +1,5 @@
 import BG from "../../public/bg.jpg";
-import { Box, Typography } from "@mui/material";
+import { Box, Container, Typography } from "@mui/material";
 
 function WhiteSpace() {
   return (
@@ -13,7 +13,13 @@ function WhiteSpace() {
         alignContent: "center",
       }}
     >
-      <Typography variant="h1" align="center" color="white" fontWeight="bold">
+      <Typography
+        variant="h1"
+        fontSize="10vh"
+        align="center"
+        color="white"
+        fontWeight="bold"
+      >
         Proyecto Ajef Raíces
       </Typography>
     </Box>
