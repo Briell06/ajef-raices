@@ -9,7 +9,7 @@ import Logo from "../../public/main-img.jpg";
 export default function NavBar() {
   return (
     <AppBar component="nav" position="static" elevation={24}>
-      <Toolbar>
+      <Toolbar sx={{ px: { xs: 1, sm: 2 } }}>
         <IconButton size="large" edge="start" color="inherit" aria-label="logo">
           <Avatar
             src={Logo}
