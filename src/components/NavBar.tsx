@@ -1,7 +1,6 @@
-import { Avatar, Stack } from "@mui/material";
+import { Avatar, Box, Stack } from "@mui/material";
 import AppBar from "@mui/material/AppBar";
 import Button from "@mui/material/Button";
-import IconButton from "@mui/material/IconButton";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Logo from "../../public/main-img.jpg";
@@ -9,8 +8,8 @@ import Logo from "../../public/main-img.jpg";
 export default function NavBar() {
   return (
     <AppBar component="nav" position="static" elevation={24}>
-      <Toolbar sx={{ px: { xs: 1, sm: 2 } }}>
-        <IconButton size="large" edge="start" color="inherit" aria-label="logo">
+      <Toolbar sx={{ px: { xs: 0, sm: 2 } }}>
+        <Box py={2} mx={1}>
           <Avatar
             src={Logo}
             sx={{
@@ -18,9 +17,10 @@ export default function NavBar() {
               width: { xs: "5vh", sm: "7vh" },
             }}
           />
-        </IconButton>
+        </Box>
         <Typography
           variant="h5"
+          fontSize="2.5vh"
           fontWeight={"medium"}
           component="div"
           sx={{ display: { xs: "none", sm: "block" } }}
