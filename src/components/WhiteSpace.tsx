@@ -8,8 +8,8 @@ function WhiteSpace() {
       sx={{
         backgroundImage: `linear-gradient(#001805, transparent),url(${BG})`,
         backgroundSize: "cover",
-        backgroundPosition: "center",
         backgroundAttachment: "fixed",
+        backgroundPosition: "center",
         alignContent: "center",
       }}
     >
