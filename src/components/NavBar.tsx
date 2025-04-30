@@ -22,7 +22,7 @@ export default function NavBar() {
               src={Logo}
               sx={{
                 height: { xs: "5vh", sm: "7vh" },
-                width: "auto",
+                width: { xs: "5vh", sm: "7vh" },
               }}
             />
           </IconButton>
